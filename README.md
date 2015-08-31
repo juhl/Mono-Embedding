@@ -15,7 +15,6 @@
 1. 환경 변수 `MONODEVELOP_SDB_TEST = Y` 를 추가.
 
 2. pdb 대신 mdb 파일이 필요하다. 아래 그림과 같이 custom command 를 추가하면 빌드할 때마다 자동으로 mdb 가 생성된다.
-
 ![xamarin-custom-commands](http://judis.me/wordpress/wp-content/uploads/2015/08/xamarin-custom-commands.png)
 
 3. ScriptHost/ScriptHost.sln 을 열어서 Application.cpp 의 `ENABLE_SOFT_DEBUGGING` 의 주석을 풀고 실행
