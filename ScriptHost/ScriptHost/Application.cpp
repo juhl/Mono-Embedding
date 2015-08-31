@@ -203,6 +203,11 @@ bool Application::StartMonoAndLoadAssemblies() {
 	// call the Run method. This will block until the managed code decides to exit
 	MonoObject *exception = NULL;
 	MonoObject *result = mono_runtime_invoke(method, obj, NULL, &exception);
+	if (exception) {
+		printf("An exception was thrown\n");
+		return true;
+	}
+
 	int val = *(int*)mono_object_unbox(result);
 
 	// if the managed code returns with 0, it wants to exit completely
