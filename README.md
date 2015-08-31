@@ -23,6 +23,6 @@
 
 ## References
 
-http://www.mono-project.com/docs/advanced/embedding/
-http://www.giorgosdimtsas.net/debugging-on-embedded-mono/
-https://github.com/mono/mono/blob/master/samples/embed/test-invoke.c
+- http://www.mono-project.com/docs/advanced/embedding/
+- http://www.giorgosdimtsas.net/debugging-on-embedded-mono/
+- https://github.com/mono/mono/blob/master/samples/embed/test-invoke.c
