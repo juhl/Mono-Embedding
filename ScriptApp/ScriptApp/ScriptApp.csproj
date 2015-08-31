@@ -21,7 +21,7 @@
     <PlatformTarget>x86</PlatformTarget>
     <CustomCommands>
       <CustomCommands>
-        <Command type="AfterBuild" command="&quot;..\..\..\..\..\..\..\Program Files (x86)\Mono\bin\pdb2mdb.bat&quot; ${TargetPath}" workingdir="${TargetDir}" pauseExternalConsole="True" />
+        <Command type="AfterBuild" command="&quot;C:\Program Files (x86)\Mono\bin\pdb2mdb.bat&quot; ${TargetPath}" workingdir="${TargetDir}" pauseExternalConsole="True" />
       </CustomCommands>
     </CustomCommands>
   </PropertyGroup>
