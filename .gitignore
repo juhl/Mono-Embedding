@@ -20,6 +20,8 @@ Thumbs.db
 obj/
 _ReSharper*/
 [Tt]est[Rr]esult*
+Debug/
+Release/
 *.ipch
 *.opensdf
 *.sdf
